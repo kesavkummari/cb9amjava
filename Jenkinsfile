@@ -4,6 +4,12 @@ pipeline {
          maven 'maven'
          jdk 'java'
     }
+     stages {
+        stage('Stage-0 : static code analysis using sonarqube') { 
+            steps {
+                sh 'mvn clean verify sonar;sonar'
+            }
+        }
     stages {
         stage('Stage-1 : Clean') { 
             steps {
