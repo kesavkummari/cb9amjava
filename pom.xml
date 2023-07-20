@@ -3,11 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>CloudBinary</artifactId>
-<<<<<<< HEAD
-    <version>1.1.0</version>
-=======
     <version>1.2.0</version>
->>>>>>> 63819ed985441276ddc1189dca29bffc17fb420c
     <packaging>war</packaging>
     <name>Cloud Binary Sample Spring MVC Application</name>
 
