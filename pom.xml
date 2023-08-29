@@ -21,17 +21,17 @@
     </properties>
 
     
-    <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
-    </snapshotRepository>
+ <distributionManagement>
     <repository>
         <id>central</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
-    </repository>	
+        <name>jfrog.cloudbinary.io-releases</name>
+        <url>http://3.231.144.45:8081/artifactory/mydam-b7am</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.cloudbinary.io-snapshots</name>
+        <url>http://3.231.144.45:8081/artifactory/mydam-b7am</url>
+    </snapshotRepository>
 </distributionManagement>
     
     <dependencies>
