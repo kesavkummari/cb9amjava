@@ -14,9 +14,9 @@
         <maven.compiler.target>11</maven.compiler.target>
         
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>mydam</sonar.organization>
-        <sonar.projectKey>mydam_cloudbinary</sonar.projectKey>
-        <sonar.login>54b884da545afded2f353969bda228a45bef9c93</sonar.login>
+        <sonar.organization>codescaning</sonar.organization>
+        <sonar.projectKey>codescaning_cb9am</sonar.projectKey>
+        <sonar.login>e22d1ea605e9507f00dced1c46868583cfdb7fe7</sonar.login>
 
     </properties>
 
