@@ -40,9 +40,14 @@ pipeline {
                 sh 'mvn verify'
             }
         }
-          stage('Stage-7 : Package') { 
+         stage('Stage-7 : Package') { 
             steps {
                 sh 'mvn package'
+            }
+         }
+          stage('Stage-8 : Deploy') { 
+            steps {
+                sh 'mvn deploy'
             }
         }
     }
