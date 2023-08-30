@@ -5,7 +5,12 @@ pipeline {
          jdk 'java'
     }
     stages {
-        stage('Stage-1 : clean') { 
+        stage('Stage-0 : sonar code scanning') { 
+            steps {
+                sh 'mvn verify sonar:sonar'
+            }
+        }
+         stage('Stage-1 : clean') { 
             steps {
                 sh 'mvn clean'
             }
