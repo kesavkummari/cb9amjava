@@ -15,8 +15,8 @@
         
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>codescaning</sonar.organization>
-        <sonar.projectKey>codescaning_cb9am</sonar.projectKey>
-        <sonar.login>e22d1ea605e9507f00dced1c46868583cfdb7fe7</sonar.login>
+        <sonar.projectKey>codescaning_cb10am</sonar.projectKey>
+        <sonar.login>8227216e09771e060f8a23662a4dd6b6cde2e56b</sonar.login>
 
     </properties>
 
