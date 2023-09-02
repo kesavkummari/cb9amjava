@@ -24,12 +24,12 @@
     <repository>
         <id>release</id>
         <name>jfrog.cloudbinary.io-releases</name>
-        <url>http://3.216.126.163:8081/artifactory/b69am</url>
+        <url>http://3.235.59.86:8081/artifactory/b69am</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.cloudbinary.io-snapshots</name>
-        <url>http://3.216.126.163:8081/artifactory/b69am</url>
+        <url>http://3.235.59.86:8081/artifactory/b69am</url>
     </snapshotRepository>
 </distributionManagement>
     
