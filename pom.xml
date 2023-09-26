@@ -13,13 +13,13 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
  
-        <sonar.host.url>http://54.160.108.156:9000</sonar.host.url>
+        <sonar.host.url>http:////100.25.30.186:9000 </sonar.host.url>
         <sonar.organization>8amDev</sonar.organization>
         <sonar.projectKey>8amDev</sonar.projectKey>
-        <sonar.login>sqp_8a22ff7a30d752280bedd671460141fcd046153b</sonar.login>
+        <sonar.login>sqp_b3523bfec2c9831fe92c1e3415b6f82f100df65c</sonar.login>
        
     </properties>
-
+    
     <!--
     <distributionManagement>
     <snapshotRepository>
@@ -40,13 +40,13 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>libs-snapshot-local</name>
-        <url>http://34.229.72.3:8082/artifactory/libs-snapshot-local/</url>
+        <url>http://100.25.17.156:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
     
     <repository>
         <id>releases</id>
         <name>libs-release-local</name>
-        <url>http://34.229.72.3:8082/artifactory/libs-release-local/</url>
+        <url>http://100.25.17.156:8082/artifactory/libs-release-local/</url>
     </repository>
 
 </distributionManagement>    
